@@ -1,0 +1,65 @@
+.recruit_img img {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+.recruit_inner {
+  text-align: center;
+  margin-top: 80px;
+}
+.recruit_all {
+  width: 70%;
+  height: 850px;
+  margin-left: 13%;
+  border: solid 2px #ddd;
+  box-shadow: 20px 20px 30px #ddd;
+  margin-top: 80px;
+}
+.recruit_text {
+  text-align: left;
+  padding: 2% 2%;
+}
+.about_mem_all {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7.5%;
+  border: solid 2px #ddd;
+  box-shadow: 20px 20px 30px #ddd;
+  margin-top: 70px;
+}
+
+.about_mem_per {
+  width: 40%;
+}
+.about_mem_ttl {
+  position: relative;
+  font-size: 1.75em;
+  line-height: 1.5;
+  margin-bottom: 2.5%;
+}
+
+.about_mem_ttl::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 35px;
+  background-color: #75a9ff;
+  top: 5%;
+  left: -2.5%;
+}
+
+.about_mem_name {
+  font-size: 1.5em;
+  margin-bottom: 5%;
+}
+
+.about_mem_txt {
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+.recruit_info {
+  font-size: 20px;
+}
+.inner {
+  margin-top: 70px;
+}
