@@ -4,11 +4,10 @@ function sizecheck() {
   h = window.innerHeight ? window.innerHeight : $(window).height();
 }
 
-
 sizecheck();
 $(function () {
   if (w > 769) {
-} else {
+} else { 
   $("header .drawer").click(function(){
   $('body').toggleClass('nav-open');
   $('header .header_nav').fadeToggle(200);
@@ -18,4 +17,4 @@ $(function () {
   $('header .header_nav').fadeToggle(200);
     });
   }
-});
+}); 

@@ -59,4 +59,36 @@
     height: 30em;
     margin-left: 10%;
   }
+  .about_com_all {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .picture_Tochigi img {
+    height: 480px;
+  }
+  .company_com_ttl {
+    font-size: 1em;
+  }
+  .contact_wrapper p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .picture_Tochigi img {
+    height: 300px;
+  }
+  .about_com_all {
+    height: 50em;
+  }
+  .about_com_ttl {
+    font-size: 1em;
+  }
+
+  .company_com_all {
+    height: auto;
+  }
+  .btn {
+    width: 60%;
+  }
 }

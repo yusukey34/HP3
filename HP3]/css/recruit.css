@@ -63,3 +63,30 @@
 .inner {
   margin-top: 70px;
 }
+@media screen and (max-width: 1024px) {
+  .header_sub {
+    position: absolute;
+    top: 27%;
+    right: 10%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .recruit_all {
+    margin-top: 0%;
+    height: 1000px;
+  }
+  .about_mem_per {
+    width: 100%;
+  }
+  .about_mem_all {
+    display: block;
+  }
+}
+@media screen and (max-width: 300px) {
+  .recruit_all {
+    height: auto;
+  }
+  .recruit_info {
+    font-size: 15px;
+  }
+}
