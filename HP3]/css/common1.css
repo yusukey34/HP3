@@ -283,6 +283,11 @@ a {
   .intro {
     width: 100%;
   }
+  .header_sub {
+    position: absolute;
+    top: 27%;
+    right: 10%;
+  }
   header .drawer {
     visibility: visible;
     width: 24px;
@@ -318,11 +323,11 @@ a {
     position: fixed;
     display: none;
     width: 100%;
-    height: 100%;
+    height: 30%;
     top: 0;
     left: 0;
     z-index: 50;
-    background: #fff;
+    background: black;
   }
 
   header .header_nav ul {
@@ -373,7 +378,7 @@ a {
     width: 100% !important;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 300px) {
   .header_logo h1 {
     font-size: 20px;
   }
@@ -404,4 +409,3 @@ a {
     right: 0%;
   }
 }
-
