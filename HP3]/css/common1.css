@@ -368,6 +368,7 @@ a {
     transform: rotate(45deg);
   }
 }
+
 @media screen and (max-width: 480px) {
   .header_logo h1 {
     font-size: 40px;
