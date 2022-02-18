@@ -22,6 +22,12 @@ header {
 
   height: 30em;
 }
+.header_logo a {
+  font-size: 50px;
+}
+.header_logo a:hover {
+  color: orange;
+}
 
 .header_inner {
   display: flex;
@@ -322,20 +328,22 @@ a {
   header .header_nav {
     position: fixed;
     display: none;
-    width: 100%;
+    width: 50%;
     height: 30%;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 50;
     background: black;
   }
 
   header .header_nav ul {
     display: block;
+    padding-left: 0%;
   }
 
   header .header_nav ul li {
-    margin: 5% auto;
+    margin: 8%;
+    white-space: nowrap;
   }
 
   header .header_nav ul li a {
@@ -377,9 +385,16 @@ a {
   .news_wrapper {
     width: 100% !important;
   }
+  .header_logo a {
+    font-size: 30px;
+  }
 }
-@media screen and (max-width: 300px) {
+
+@media screen and (max-width: 375px) {
   .header_logo h1 {
+    font-size: 20px;
+  }
+  .header_logo a {
     font-size: 20px;
   }
   .header_sub p {

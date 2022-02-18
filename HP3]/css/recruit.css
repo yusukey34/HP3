@@ -82,7 +82,7 @@
     display: block;
   }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 375px) {
   .recruit_all {
     height: auto;
   }
